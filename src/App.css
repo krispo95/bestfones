@@ -1,17 +1,78 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+body{
+	background-color: lightgray;
 }
 
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+	height: 80px;
+	top: 6vh;
+	left: 47vw;
+	position: absolute;
+}
+
+
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  background-color: white;
+	height: 5em;
+	margin: 3%;
+	color: lightgrey;
+}
+
+.App-promo{
+	background-color: white;
+	height: 20em;
+	padding: 10px;
+	margin: 3%;
+  color: lightgrey;
+}
+
+
+.App-header-menu ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+	height: 5em;
+	box-sizing: border-box;
+}
+.App-header-btn {
+margin:0;
+padding:0;
+}
+.App-header-btn a{
+	margin:0;
+	padding:0;
+	width: 47vw;
+	height: 3.4em;
+	padding: 1em;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	color: rgb(82,177,177);
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+.App-header-btn-left{
+	float:left;
+}
+
+.App-header-btn-right{
+	float: right;
+	
+}
+
+.App-header-btn-right a:hover{
+	background: linear-gradient( to right, rgb(231, 231, 231), rgb(82,177,177));
+	color: white;
+}
+
+.App-header-btn-left a:hover{
+	background: linear-gradient( to left, rgb(231, 231, 231), rgb(82,177,177));
+	color: white;
 }
 
 .App-title {
@@ -25,4 +86,31 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+.css {
+	position: absolute;
+	background:#6495c4;
+	width:30px;
+	height:30px;
+	left: 70px;
+	top: 40px;
+	border: 3px solid #fff;
+	cursor: pointer;
+	    border-radius: 19px;
+	   -webkit-border-radius: 19px;
+	   -moz-border-radius: 19px;
+
+}
+#round {
+	position: absolute; 
+	left: 50%;
+	margin-left: -250px; 
+	top: 100px; 
+	width: 500px; 
+	height: 500px;
+	border: 5px solid #6495c4;
+	    border-radius: 250px;
+	   -webkit-border-radius: 250px;
+	   -moz-border-radius: 250px;
+	
 }
